@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         User[] users = {
-                new User("Admin123", "Admin!@#", Role.ADMIN),
-                new User("User123", "User123", Role.USER)
+                new User("Administrator12345678@", "Admin!@#", Role.ADMIN),
+                new User("User12345678901234567@", "User123!", Role.USER)
         };
 
         boolean flag = true;
